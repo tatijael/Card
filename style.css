@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body {
+    font-family: "Roboto";
+    
+}
+
+.container {
+
+    width: 480px;
+    background-color: #1e1b26;
+    box-sizing: border-box;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 4px 6px 11px 5px rgba(189,187,189,1);
+    
+}
+
+.imagen {
+    width: 480px;
+    height: 470px;
+}
+
+.content {
+    padding: 20px;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h1,h3 {
+    font-family: "Montserrat";
+    font-weight: 200;
+    margin: 0;
+}
+
+.gray-color {
+    color: #9b9b9b;
+    margin: 4px 0 8px 0;
+    font-weight: 600;
+
+}
+
+.white-color {
+    color: #e7e7e7; 
+    
+}
+
+.trailer { 
+
+    color: #fe4141;
+    height: 22px;
+    width: 150px;
+    border: 1px solid #fe4141;
+    padding: 5px;
+    border-radius: 8px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    
+}
+ 
+.trailer img {
+    height: 11px;
+    padding: 2px;
+
+}
+
+.trailer a {
+    color: #fe4141;
+    text-decoration: none;
+}
+
+
+
